@@ -1,3 +1,4 @@
-cd chatterbot/
+cd app/
 #start rasa server with nlu model
-rasa run -m models --enable-api 
+rasa run --model models --enable-api --cors "*" --debug \
+   -p $PORT
