@@ -1,3 +1,3 @@
-cd app/
+cd chatterbot/
 #start rasa server with nlu model
 rasa run -m models --enable-api 
