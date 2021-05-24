@@ -1,1 +1,0 @@
-web gunicorn chatterbot:app
